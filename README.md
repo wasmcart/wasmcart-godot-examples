@@ -81,3 +81,7 @@ Every example is freely redistributable.
 | `warring_lords`, `shiny_orbits`, `hello_godot` | written for this repo | MIT |
 
 Godot itself is MIT, © Juan Linietsky, Ariel Manzur and contributors.
+
+This repository is [MIT](LICENSE). The vendored upstream terms, including
+roboblast's CC BY 4.0 art and the attribution it requires, are in
+[THIRD-PARTY.md](THIRD-PARTY.md).
