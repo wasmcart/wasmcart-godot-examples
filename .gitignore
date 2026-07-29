@@ -1,0 +1,17 @@
+# Build outputs. The .wasc carts are large and regenerable -- pack.sh
+# rebuilds any of them from the project source that IS tracked here.
+*.wasc
+*.pck
+wasc_assets/
+
+# Vendored upstream game projects keep their own git history; we track
+# their source but not their .git directories.
+*/project/.git/
+
+# Save files written by playing a cart
+saves/
+*.sav
+
+# OS / editor
+.DS_Store
+*.swp

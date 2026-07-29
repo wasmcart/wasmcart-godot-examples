@@ -1,0 +1,10 @@
+wasmcart: GL imports registered (209 functions, (null))
+wasmcart: initial WASM memory: 268435456 bytes (256 MB)
+wasmcart: loaded RoboBlast TPS (1920x1080, GL, ABI v0)
+wasmcart: calling _initialize (deferred)
+wasmcart: deferred init complete (1920x1080, GL)
+wasmcart: SET_SYSTEM_AV_INFO 1920x1080
+wasmcart: loaded asset game.pck (109503264 bytes, max_size=109503264, uncomp=109503264)
+wasmcart: glGetStringi(GL_EXTENSIONS, 0) = GL_AMD_conservative_depth
+wasmcart: glGetStringi(GL_EXTENSIONS, 1) = GL_AMD_depth_clamp_separate
+wasmcart: glGetStringi(GL_EXTENSIONS, 2) = GL_AMD_draw_buffers_blend
