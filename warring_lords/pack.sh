@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-# Build a Godot wasmcart .wasc archive — Warlords
+# Build a Godot wasmcart .wasc archive - Warring Lords
 # Usage: bash pack.sh
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
@@ -44,13 +44,13 @@ mkdir -p "${ASSETS_DIR}"
 cp "${SCRIPT_DIR}/game.pck" "${ASSETS_DIR}/"
 
 # Step 3: Pack into .wasc
-echo "Packing warlords.wasc..."
+echo "Packing warring_lords.wasc..."
 node "${WASMCART_PACK}" \
     --wasm "${GODOT_WASM}" \
     --assets "${ASSETS_DIR}" \
-    --name "Warlords" \
+    --name "Warring Lords" \
     --width 640 --height 360 \
-    -o "${SCRIPT_DIR}/warlords.wasc"
+    -o "${SCRIPT_DIR}/warring_lords.wasc"
 
 # Clean up
 rm -rf "${ASSETS_DIR}"
@@ -58,5 +58,4 @@ rm -f "${SCRIPT_DIR}/game.pck"
 
 echo ""
 echo "Done! Test with:"
-echo "  node ~/code/cliemu/wasmcart/bin/wasmcart-screenshot.js ${SCRIPT_DIR}/warlords.wasc --frames 300 -o /tmp/warlords_test.png"
-echo "  npx wasmcart warlords.wasc"
+echo "  npx wasmcart warring_lords.wasc"

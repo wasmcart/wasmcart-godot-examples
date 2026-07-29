@@ -1,6 +1,8 @@
-# Warlords
+# Warring Lords
 
-A 4-player Warlords clone built with Godot 4.4 running on the wasmcart platform.
+A 4-player castle-defence arcade game built with Godot 4.4, running as a
+wasmcart cart. Four players each defend a brick fortress, deflecting a
+bouncing projectile with a shield.
 
 ## Credits
 

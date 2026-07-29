@@ -15,7 +15,7 @@ npx wasmcart roboblast/roboblast.wasc
 | [`roboblast`](roboblast) | 1920x1080 | a 3D action game: third-person controller, enemies, terrain, foliage |
 | [`kenney_platformer`](kenney_platformer) | 1280x720 | 3D platformer — Kenney's starter kit, unmodified |
 | [`shiny_orbits`](shiny_orbits) | 640x480 | 3D scene: reflective floor, lit geometry, orbiting bodies |
-| [`warlords`](warlords) | 640x360 | four-player 2D arcade game, gamepad-driven |
+| [`warring_lords`](warring_lords) | 640x360 | four-player castle-defence arcade game, gamepad-driven |
 | [`hello_godot`](hello_godot) | 640x480 | the minimal cart |
 
 All five render through Godot's GLES3 Compatibility renderer, so draw calls
@@ -78,6 +78,6 @@ Every example is freely redistributable.
 |---|---|---|
 | `roboblast` | [GDQuest 3D third-person controller](https://github.com/gdquest-demos/godot-4-3d-third-person-controller) | code MIT, art CC-BY 4.0 — *"Additional assets CC-By 4.0 [GDQuest](https://www.gdquest.com/)"* |
 | `kenney_platformer` | [Kenney Starter Kit 3D Platformer](https://github.com/KenneyNL/Starter-Kit-3D-Platformer) | MIT, © 2023 Kenney |
-| `warlords`, `shiny_orbits`, `hello_godot` | written for this repo | MIT |
+| `warring_lords`, `shiny_orbits`, `hello_godot` | written for this repo | MIT |
 
 Godot itself is MIT, © Juan Linietsky, Ariel Manzur and contributors.
