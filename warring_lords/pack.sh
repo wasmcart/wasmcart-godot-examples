@@ -45,10 +45,14 @@ cp "${SCRIPT_DIR}/game.pck" "${ASSETS_DIR}/"
 
 # Step 3: Pack into .wasc
 echo "Packing warring_lords.wasc..."
+# The cart's version is this repo's (the tag at a clean v<semver> tag, else
+# <last tag>-dev.g<commit>; wasmcart-pack 0.40.0 or later), not the Godot
+# runtime's checkout. CART_VERSION sets it by hand.
 node "${WASMCART_PACK}" \
     --wasm "${GODOT_WASM}" \
     --assets "${ASSETS_DIR}" \
     --name "Warring Lords" \
+    --version-from "${SCRIPT_DIR}" ${CART_VERSION:+--version "${CART_VERSION}"} \
     --width 640 --height 360 \
     -o "${SCRIPT_DIR}/warring_lords.wasc"
 
